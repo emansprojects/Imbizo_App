@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ContactFragment">
+
+    <LinearLayout
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="6dp"
+        app:layout_anchor="@id/background"
+        app:layout_anchorGravity="center_horizontal|bottom">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Contact Information"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:textAlignment="center"></TextView>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+                app:hintAnimationEnabled="false"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="christy@imbizofoundation.com"
+                    android:contextClickable="true"
+                    android:drawableLeft="@drawable/ic_email_black"
+                    android:textIsSelectable="true"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:clickable="true"
+                    />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+
+                app:hintAnimationEnabled="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" @imbizofoundationsa"
+                android:contextClickable="true"
+                android:drawableLeft="@drawable/icons8_facebook_24"
+                android:textIsSelectable="true"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:clickable="true"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+
+                app:hintAnimationEnabled="false"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+27 765768712"
+                    android:contextClickable="true"
+                    android:drawableLeft="@drawable/icons8_instagram_24"
+                    android:textIsSelectable="true"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:clickable="true"
+                    />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+
+                app:hintAnimationEnabled="false"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" @imbizofoundationsa"
+                android:contextClickable="true"
+                android:drawableLeft="@drawable/icons8_call_male_24"
+                android:textIsSelectable="true"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:clickable="true"
+                />
+
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

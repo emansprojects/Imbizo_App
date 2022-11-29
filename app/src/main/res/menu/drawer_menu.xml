@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/homeNB"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/accountNB"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Account" />
+
+
+        <item
+            android:id="@+id/communityNB"
+            android:icon="@drawable/ic_baseline_groups_24"
+            android:title="Community" />
+
+        <item
+            android:id="@+id/personalityNB"
+            android:icon="@drawable/ic_baseline_bar_chart_24"
+            android:title="Personality Test" />
+        <item
+            android:id="@+id/savedLecturesNB"
+            android:icon="@drawable/ic_baseline_bookmarks_24"
+            android:title="Saved Lectures" />
+
+
+    </group>
+
+    <group android:id="@+id/Admin">
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/comWhatsApp"
+                android:icon="@drawable/ic_baseline_message_24"
+                android:title="WhatsApp" />
+
+            <item
+                android:id="@+id/comCommunicate"
+                android:icon="@drawable/ic_baseline_contacts_24"
+                android:title="Contact" />
+
+        </menu>
+    </item>
+    </group>
+</menu>
